@@ -1,0 +1,22 @@
+{
+  "name": "old-dev",
+  "version": "1.0.0",
+  "description": "anima-test-app",
+  "main": "index.tsx",
+  "dependencies": {
+    "@material-ui/core": "^4.10.2",
+    "@types/node": "^14.0.14",
+    "@types/react": "^16.9.41",
+    "@types/react-dom": "^16.9.8",
+    "notistack": "^0.9.17",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "dev": "nodemon static/js/index.tsx"
+  },
+  "author": "Dan Buck",
+  "license": "MIT"
+}
